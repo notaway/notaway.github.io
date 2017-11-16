@@ -1,8 +1,8 @@
 # Site settings
-title:       Pixyll
-email:       your_email@example.com
-author:      John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+title:       Notaway
+email:       1018707976@qq.com
+author:      ylzheng
+description: "Just For Fun"
 baseurl:     ""
 url:         "https://notaway.github.io/"
 date_format: "%b %-d, %Y"

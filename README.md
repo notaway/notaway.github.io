@@ -1,0 +1,2 @@
+# notaway
+Just for fun

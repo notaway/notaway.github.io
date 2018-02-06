@@ -9,19 +9,19 @@ categories:  	source
 
 #####  下载ShodowSocksR
 
-	'''
+	
   
-		wget  https://github.com/shadowsocksr-backup/shadowsocksr/archive/3.1.2.zip
-		tar xcf shadowsocksr-3.1.2.zip
-		cd shadowsocksr-3.1.2
-	'''
+	wget  https://github.com/shadowsocksr-backup/shadowsocksr/archive/3.1.2.zip
+	tar xcf shadowsocksr-3.1.2.zip
+	cd shadowsocksr-3.1.2
+	
 
 ##### 快速配置
 
 	使用 shadowsocksr-3.1.2 只需要配置 `config.json` 文件即可。
 	具体参数如下：
 
-	'''
+
 		{
     "server": "", //服务器地址
     "server_ipv6": "::",
@@ -47,7 +47,7 @@ categories:  	source
     "redirect": "",
     "fast_open": false
 	}
-	'''
+
 
 根据需要更改即可。
 	
@@ -56,9 +56,9 @@ categories:  	source
 
 ###### 运行
 
-	'''
+	
 	python ./shadowsocks/local.py -c config.json
-	'''
+	
 
 
 

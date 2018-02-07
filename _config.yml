@@ -7,7 +7,7 @@
 
 # Site settings
 title: Notaway
-brief-intro: Front-end Dev Engineer
+brief-intro: Just For Fun
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://notaway.github.io" # the base hostname & protocol for your site
 

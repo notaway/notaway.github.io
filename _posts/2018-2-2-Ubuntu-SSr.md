@@ -1,13 +1,15 @@
 ---
-layout:     	post
-title:      	Ubuntu 安装 ShodowSocksR
-date:       	2018-2-2 21:32:18
-summary:	记录梯子的搭建过程。
-categories:  	source
+layout: post
+title:  "Ubuntu 安装 ShodowSocksR"
+date:   2018-2-2 21:32:18
+categories: Ubuntu
+tags: Ubuntu
+excerpt: 记录梯子的搭建过程。
+mathjax: true
 ---
-#### Ubuntu 安装 ShodowSocksR
+##### Ubuntu 安装 ShodowSocksR
 
-#####  下载ShodowSocksR
+######  下载ShodowSocksR
 
 	
   
@@ -16,7 +18,7 @@ categories:  	source
 	cd shadowsocksr-3.1.2
 	
 
-##### 快速配置
+###### 快速配置
 
 	使用 shadowsocksr-3.1.2 只需要配置 `config.json` 文件即可。
 	具体参数如下：
@@ -51,7 +53,9 @@ categories:  	source
 
 根据需要更改即可。
 	
-	附件免费的SS帐号：https://github.com/Alvin9999/new-pac/wiki/ss%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7
+*附件免费的SS帐号：
+  
+  https://github.com/Alvin9999/new-pac/wiki/ss%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7
 
 
 ###### 运行

@@ -22,7 +22,9 @@ mathjax: true
 
 3. 输入命令：
 
-    mklink /J C:\Users\你的用户名\AppData\Roaming\Ethereum  E:\Ethereumdata
+
+        mklink /J C:\Users\你的用户名\AppData\Roaming\Ethereum  E:\Ethereumdata
+
 
 4. 命令成功执行后，会在C:\Users\你的用户名\AppData\Roaming\目录下创建一个Ethereum文件链接。打开后跳转到`E:\Ethereumdata`目录。如图所示：
 

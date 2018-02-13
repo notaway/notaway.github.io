@@ -20,8 +20,7 @@ mathjax: true
 
 ###### 快速配置
 
-	使用 shadowsocksr-3.1.2 只需要配置 `config.json` 文件即可。
-	具体参数如下：
+使用 shadowsocksr-3.1.2 只需要配置 `config.json` 文件即可。具体参数如下：
 
 
 		{

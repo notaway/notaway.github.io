@@ -16,9 +16,9 @@ mathjax: true
 
 ##### 步骤 
 
-1. 将目录`C:\Users\用户名\AppData\Roaming\Ethereum`中的`Ethereum`文件夹*剪切*。放在你`E:\Ethereumdata` 目录下。
+1. 将目录`C:\Users\用户名\AppData\Roaming\Ethereum`中的`Ethereum`文件夹**剪切**。放在你`E:\Ethereumdata` 目录下。
 
-2. 使用管理员身份运行CMD命令行。一定要用管理员身份，
+2. 使用**管理员身份**运行CMD命令行。一定要用管理员身份，
 
 3. 输入命令：
 

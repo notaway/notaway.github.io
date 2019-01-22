@@ -5,7 +5,7 @@ date:      2019-1-4 22:18:18
 summary:  专业知识
 categories: ditie 
 tags: ISCS
-excerpt: 记录综合监控的技巧和公关项目。
+excerpt: 记录综合监控的技巧和攻关项目。
 mathjax: true
 ---
 ###### 获取电脑CPU 和内存
@@ -16,13 +16,13 @@ Windows10使用命令行查看CPU使用率和RAM使用率
 查看CPU:
 
 ```
-		Get-WmiObject win32_processor | Measure-Object -property LoadPercentage -Average | Select Averagechch
+	Get-WmiObject win32_processor | Measure-Object -property LoadPercentage -Average | Select Averagechch
 ```
 Windows10使用命令行查看CPU使用率和RAM使用率
 查看内存使用率：
 
 ```
-Get-WmiObject win32_OperatingSystem |%{"Total Physical Memory: {0}KB`nFree Physical Memory : {1}KB`nTotal Virtual Memory : {2}KB`nFree Virtual Memory : {3}KB" -f $_.totalvisiblememorysize, $_.freephysicalmemory, $_.totalvirtualmemorysize, $_.freevirtualmemory}
+    Get-WmiObject win32_OperatingSystem |%{"Total Physical Memory: {0}KB`nFree Physical Memory : {1}KB`nTotal Virtual Memory : {2}KB`nFree Virtual Memory : {3}KB" -f $_.totalvisiblememorysize, $_.freephysicalmemory, $_.totalvirtualmemorysize, $_.freevirtualmemory}
 ```
 
 Windows10使用命令行查看CPU使用率和RAM使用率

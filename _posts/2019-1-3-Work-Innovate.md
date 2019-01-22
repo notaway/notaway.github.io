@@ -1,7 +1,7 @@
 ---
 layout:    post
 title:     软件相关知识
-date:      2019-1-3 22:18:18
+date:      2019-1-4 22:18:18
 summary:  专业知识
 categories: ditie 
 tags: ISCS

@@ -8,7 +8,7 @@ tags: ISCS
 excerpt: 记录综合监控的技巧和公关项目。
 mathjax: true
 ---
-######
+###### 获取电脑CPU 和内存
 
 有时候我们使用Windows图形界面查看CPU和内存使用率并不方便，比如说访问远程电脑时，这时候我们可以使用Windows自带的PowerShell 查看：
 

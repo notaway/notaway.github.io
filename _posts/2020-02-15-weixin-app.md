@@ -16,6 +16,7 @@ mathjax: true
 `wx.request`为异步函数，使用起来总是很不方便，调用结束后总是返回`undefine`。
 请看如下代码：
 
+``` javascript {.line-numbers}
     onload: function () {
         wx.request({
           url:'http://118.24.159.109/',
@@ -33,7 +34,7 @@ mathjax: true
         console.log(markersData[0].value)    //返回undefine值
         that.showMarkerInfo(markersData,0);
     })
-
+```
 * 注：完整代码请查看GitHub。
 我们得到的结果这样的。
 
@@ -41,10 +42,11 @@ mathjax: true
 
 `wx.request`是异步请求，JS不会等待`wx.request`执行完毕再往下执行，所以JS按顺序会先执行`that.showMarkerInfo()`，等服务器返回数据以后，`that.showMarkerInfo()`早就执行完了，也就返回不了数据了。
 
-####解决办法：
+#### 解决办法：
     
 就是把需要使用异步数据的函数写在回调里
 
+``` javascript {.line-numbers}
     onload: function () {
         wx.request({
           url:'http://118.24.159.109/',
@@ -63,6 +65,7 @@ mathjax: true
         })
 
     })
+  ```
 如图：
 
 ![正常值](/Images/2020/weixin-app-正常值.png)
@@ -76,6 +79,7 @@ mathjax: true
 
 除了使用绝对路径，你还需要检查tabBar中的路径是否完整，"iconPath"为空的也会显示错误。
 
+``` shell
     tabBar": {
     "list": [
       {
@@ -84,8 +88,7 @@ mathjax: true
         "iconPath": "/images/weather1.png",  
         "selectedIconPath": "/images/weather2.png"
       },
-
-
+```
 
 
 
